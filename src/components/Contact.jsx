@@ -26,7 +26,7 @@ const Contact = () => {
 
         <div className="flex flex-col gap-y-20 items-center mt-20 h-full">
           <a
-            href="https://www.linkedin.com/in/haider-ali-391868229/"
+            href="https://www.linkedin.com/in/Haider---Ali/"
             target="_blank"
           >
             <BsLinkedin size={100} className="text-blue-500" />
