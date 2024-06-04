@@ -24,6 +24,10 @@ import {
   threejs,
   skynth,
   status200,
+  nined,
+  ninedwebsite,
+  gravity,
+  nine,
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +61,6 @@ const services = [
 ];
 
 const technologies = [
-
   {
     name: "React JS",
     icon: reactjs,
@@ -70,7 +73,7 @@ const technologies = [
     name: "Vue JS",
     icon: vuejs,
   },
-    {
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -115,7 +118,6 @@ const technologies = [
     name: "MUI",
     icon: mui,
   },
-
 ];
 
 const experiences = [
@@ -141,16 +143,38 @@ const experiences = [
     company_name: "Status200",
     icon: status200,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Present",
+    date: "Dec 2022 - 17 July 2023",
     points: [
-      "UI Designing in various Js Frameworks and Libraries.",
+      "    Crafted compelling designs within diverse JS frameworks, seamlessly fusing front-end with back-end functionality.",
       "Integrating the Front-end with the back-end application.",
       "Meeting the deadlines of assigned tasks.",
       "Pixel Perfect UI Designing.",
-      "PSD to Html.",
+      "Developed well-organized training materials for end-users, enabling seamless adoption of new software features.",
       "Assisting team lead on multiple projects.",
       "Create Email templetes for verious projects.",
-      "Worked on company Website.",
+      "Participated actively in code review sessions, promoting adherence to established coding standards within the team.",
+      "Utilized version control tools such as Git for effective collaboration among team members during development cycles."
+    ],
+
+
+
+
+
+  },
+  {
+    title: "Web Developer",
+    company_name: "9D Technologies",
+    icon: nine,
+    iconBg: "#ffffff",
+    date: "17 July 2023 - Present",
+    points: [
+      "  Assisted in the creation of detailed project specifications, outlining key requirements for successful implementation of objectives.",
+      "Integrating the Front-end with the back-end application.",
+      "Designed engaging graphics and visual elements that contributed to a cohesive online presence across multiple platforms.",
+      "Developed secure authentication systems that protected sensitive user data while providing seamless login experiences.",
+      "Implemented accessibility features to ensure compliance with ADA guidelines and improve user experience for all visitors.",
+      "Developed and maintained a cross-platform VPN application using ElectronJS, enabling seamless and secure internet connectivity.",
+      "Integrated OpenVPN for robust VPN connections, ensuring high levels of security and privacy for users.",
     ],
   },
 ];
@@ -213,7 +237,7 @@ const projects = [
         name: "nextjs",
         color: "blue-text-gradient",
       },
-     
+
       {
         name: "metamask",
         color: "green-text-gradient",
@@ -250,6 +274,112 @@ const projects = [
     ],
     image: lutech,
     source_code_link: "https://lutechglobal.com/",
+  },
+
+  {
+    name: "9D-VPN Desktop Application",
+    description:
+      "Developed a robust and high-performance desktop VPN application designed for Linux users. The app offers a secure and encrypted connection using openVPN, ensuring user privacy and data protection. It features a modern and intuitive user interface built with ReactJS and styled using Tailwind CSS. The application leverages Electron-vite for fast performance and Electron-Builder for seamless packaging and deployment. With ContextAPI, the app manages state efficiently, providing a consistent user experience.",
+    tags: [
+      {
+        name: "Electron-vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Electron-Builder",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ContextAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "REST/RESTful APIs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openVPN",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Binaries",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Linux",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nined,
+    source_code_link: "",
+  },
+
+  {
+    name: "9D-VPN Website",
+    description:
+      "The 9D-VPN Website is a comprehensive platform built with ReactJS and styled using Tailwind CSS, providing a modern, responsive user interface. It employs ContextAPI for efficient state management and REST/RESTful APIs for reliable backend communication. A standout feature is its secure payment processing system powered by Stripe, enabling easy subscription management. The site ensures a seamless user experience across all devices.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ContextAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "REST/RESTful APIs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ninedwebsite,
+    source_code_link: "https://9dvpn.app/",
+  },
+
+  {
+    name: "Gravity-VPN Website",
+    description:
+      "The Gravity-VPN Website is a static site with a marvelous UI and Lottie animations, built with ReactJS and styled using Tailwind CSS. It provides a modern, responsive user interface and ensures a seamless user experience across all devices.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gravity,
+    source_code_link: "https://gravityvpn.io/",
   },
 ];
 

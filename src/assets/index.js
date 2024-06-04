@@ -25,16 +25,19 @@ import Next from "./tech/next.png";
 import Blockchin from "./tech/Blockchain.png";
 import bulma from "./tech/bulma-logo.png";
 import go from "./tech/golag.png";
-import mui from "./tech/mui.png";
+import mui from "./tech/Mui.png";
 import wordpress from "./tech/WordPress.png";
 
 import skynth from "./company/skynth.png";
 import status200 from "./company/status200.svg";
-
+import nine from "./company/9d.svg";
 
 import khalijiah from './Khalijah.png';
 import Peace from './peacefull.png';
 import lutech from './lutech.png';
+import nined from './9D.png';
+import ninedwebsite from './9dVeb.png';
+import gravity from './gravity.png'
 
 
 export {
@@ -71,4 +74,8 @@ export {
   khalijiah,
   Peace,
   lutech,
+  nined,
+  ninedwebsite,
+  gravity,
+  nine
 };
